@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/bimbelIDBimbel_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Bimbel ID"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/emailBimbel_et"
+        android:hint="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bimbelIDBimbel_et"/>
+    <EditText
+        android:id="@+id/nameBimbel_et"
+        android:hint="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailBimbel_et"/>
+    <EditText
+        android:id="@+id/passwordBimbel_et"
+        android:hint="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameBimbel_et"/>
+    <EditText
+        android:id="@+id/confirmPasswordBimbel_et"
+        android:hint="Confirm Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordBimbel_et"/>
+    <Button
+        android:id="@+id/registerBimbel_btn"
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/confirmPasswordBimbel_et" />
+        <!--    <TextView-->
+<!--        android:id="@+id/EmailBimbel_text"-->
+<!--        android:text="Email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/bimbelID_et"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"/>-->
+<!--    <EditText-->
+<!--        android:id="@+id/EmailBimbel_et"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Email Bimbel"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/EmailBimbel_text"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/NameBimbel_text"-->
+<!--        android:text="Name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/EmailBimbel_et"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/PasswordBimbel_text"-->
+<!--        android:text="Password"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ConfirmPasswordBimbel_text"-->
+<!--        android:text="Confirm Password"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:id="@+id/email_et"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Email"-->
+<!--        android:textAlignment="center"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/register_text"-->
+<!--        android:text="Didn't have an account?"-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/login_btn"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/register_btn"-->
+<!--        android:text="Register"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/register_text" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
